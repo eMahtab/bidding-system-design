@@ -1,7 +1,6 @@
 ## Bidding System Design (Bidding in an event)
 
-
-Write a Java implementation for a rewards bidding system - BidBlitz for Flipkart, where Flipkart plus members will have the opportunity to win a lavish item each day.  
+Design a rewards bidding system - BidBlitz for Flipkart, where Flipkart plus members will have the opportunity to win a lavish item each day.  
 As an engineer, your task is to build a feature that allows members to place bids using their Flipkart Super Coins. 
 ● The winner of the item will be the member who places the lowest bid.
 ● At the end of each day, the system should declare the winner.
