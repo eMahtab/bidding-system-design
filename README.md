@@ -15,27 +15,40 @@ Explanations
 
 What is the bid ? 
 a. Pledge Super coin to buy the lavish item
+
 What is the BidBlitz Event ? 
 a. It is event in which members submit the bids and at the end of the event , winner is decided based on some criteria 
 (mentioned in the requirements) 
+
 Requirements
+
 System should be able to add members and each member will have super coins assigned by system 
 a. Number of super coins assigned by system should be greater than zero
+
 System should be able to add event where event name should be unique for each event 
 a. System can only add one event in a single day
+
 Members can register for the event and only registered members can participate in the event.
+
 Members should be able to submit bids for a particular event as per the below conditions 
+
 a. Member can only submit all bids at single go and at max 5 bids can be submitted 
+
 b. Member should have atleast max of 5 bids super coins in his wallet 
-i. Suppose member submit bids -> 100,500,400,800,900 ii. Then member should have at least 900 super coins 
-available 
-iii. Only the max bid would be deducted from the member wallet
+
+i. Suppose member submit bids -> 100,500,400,800,900 ii. Then member should have at least 900 super coins available 
+
+ii. Only the max bid would be deducted from the member wallet
+
 In above given example, only 900 super coins will be deducted from member wallet 
+
 c. Each bid should be unique for the member for that event i. Suppose member submit 4 bids -> 100, 200, 300, 400 ii. As each bid has unique value 
 d. Each bid should be greater than zero 
 5. System admin will declare the winner. 
+
 a. How is the winner decided? 
 i. Member with lowest bid will be declared as winner 
+
 ii. If the lowest bid is not unique then member who submitted lowest bid first will be declared as winner 
 
 Bonus Requirement
