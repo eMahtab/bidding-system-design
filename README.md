@@ -51,10 +51,13 @@ i. Member with lowest bid will be declared as winner
 
 ii. If the lowest bid is not unique then member who submitted lowest bid first will be declared as winner 
 
-Bonus Requirement
-Members can see the winners of past events. 
-a. How many past events can be made visible -> 5 
-b. Order by ascending or descending 
+## Bonus Requirement
+Members can see the winners of past events.
+
+a. How many past events can be made visible -> 5
+
+b. Order by ascending or descending
+
 c. Winners should be sorted by event date
 ```
 Commands
